@@ -15,7 +15,7 @@ section {
     font-weight: 900;
     color: ivory;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .top-banner {
@@ -77,4 +77,17 @@ input {
 #shelter {
     background-color: rgb(251, 241, 226);
     margin-right: 100px;
+}
+
+.display-flex3 {
+    display: flex;
+}
+
+.Contribution {
+    width: 50%;
+    height: 30%;
+}
+
+.Contribution img {
+    width: 80%;
 }
