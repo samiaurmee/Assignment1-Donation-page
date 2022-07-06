@@ -35,9 +35,10 @@ section {
     font-size: large;
 }
 
-.display-flex {
+.display-flex1 {
     display: flex;
     margin-left: 30%;
+
 }
 
 .half-width {
@@ -56,4 +57,24 @@ input {
     border-bottom: 2px solid gray;
     max-width: 1000px;
     margin-top: 2%;
+}
+
+.display-flex2 {
+    display: flex;
+}
+
+#food {
+    background-color: rgb(231, 247, 247);
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#education {
+    background-color: rgb(246, 221, 225);
+    margin-right: 50px;
+}
+
+#shelter {
+    background-color: rgb(251, 241, 226);
+    margin-right: 100px;
 }
