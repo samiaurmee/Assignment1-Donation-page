@@ -52,7 +52,7 @@ section {
     background-color: rgb(242, 204, 211);
 }
 
-input {
+input[type=text] {
     border: none;
     border-bottom: 2px solid gray;
     max-width: 1000px;
@@ -90,4 +90,25 @@ input {
 
 .Contribution img {
     width: 80%;
+}
+
+input[type=email] {
+    background-color: antiquewhite;
+}
+
+input[type=subscribe] {
+    background-image: linear-gradient(rgb(31, 180, 239), rgb(106, 106, 241));
+    font-weight: 900;
+    color: ivory;
+}
+
+.footer {
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    color: red;
+    background-color: black;
+    margin-bottom: 0;
 }
